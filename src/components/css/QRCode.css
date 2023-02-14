@@ -1,0 +1,27 @@
+.card-qr-code {
+  background-color: var(--bg-card);
+  width: 290px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 15px;
+  gap: 1.5rem;
+}
+
+.card-qr-code .qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-qr-code .card-title {
+  color: var(--text-color-card-title);
+  text-align: center;
+  font-weight: 700;
+}
+
+.card-qr-code .card-description {
+  color: var(--text-color-card-description);
+  text-align: center;
+}

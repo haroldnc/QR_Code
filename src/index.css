@@ -13,12 +13,12 @@
   --color-dark-blue: hsl(218, 44%, 22%);
 
   /* Background color */
-  --bg-body: var(--color-grayish-blue);
+  --bg-body: var(--color-light-gray);
   --bg-card: var(--color-white);
 
   /* Text color */
   --text-color-card-title: var(--color-dark-blue);
-  --text-color-card-description: var(--color-light-gray);
+  --text-color-card-description: var(--color-grayish-blue);
 }
 
 * {
